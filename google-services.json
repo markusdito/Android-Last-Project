@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494513464121",
+    "project_id": "android-last-project",
+    "storage_bucket": "android-last-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494513464121:android:d69b65a9623c865eaebee8",
+        "android_client_info": {
+          "package_name": "com.sadhar.androidProject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArG_Gg9PmPHnWRJCLwpxyExuliH9usHuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
