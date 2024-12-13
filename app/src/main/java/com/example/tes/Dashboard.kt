@@ -54,7 +54,6 @@ fun content(title: String, rating: Double, modifier: Modifier = Modifier, navCon
                 .width(150.dp)
                 .height(225.dp)
                 .clickable{navController.navigate("detail")},
-
         )
         Spacer(modifier = Modifier.height(8.dp))
         //Body Container

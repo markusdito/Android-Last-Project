@@ -1,5 +1,6 @@
 package com.example.tes
 
+import Detail
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
@@ -32,7 +33,7 @@ fun MovieMain() {
             ShowPartition(section = "Trending", title = "Movie A", rating = 5.6, modifier = Modifier, navController)
         }
         composable("detail") {
-            detailPage()
+            Detail(name = "Endgame", navController = navController)
         }
     }
 }
