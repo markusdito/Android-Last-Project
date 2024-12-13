@@ -4,12 +4,8 @@
         "source": "com.example.tes.app-main-55:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.tes.app-debug-53:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.tes.app-debug-53:/xml_backup_rules.xml.flat",
-        "source": "com.example.tes.app-main-55:/xml/backup_rules.xml"
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p1.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p1.jpg"
     },
     {
         "merged": "com.example.tes.app-debug-53:/mipmap-hdpi_ic_launcher.webp.flat",
@@ -20,51 +16,139 @@
         "source": "com.example.tes.app-main-55:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.tes.app-debug-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "com.example.tes.app-debug-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.tes.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.tes.app-debug-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
         "merged": "com.example.tes.app-debug-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.tes.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.tes.app-debug-53:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "com.example.tes.app-debug-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.tes.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tes.app-debug-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p4.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p4.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p1.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p1.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p6.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p6.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p5.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p5.jpg"
     },
     {
         "merged": "com.example.tes.app-debug-53:/drawable-nodpi_gambarmie.png.flat",
         "source": "com.example.tes.app-main-55:/drawable-nodpi/gambarmie.png"
     },
     {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p2.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p2.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p6.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p6.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p5.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p5.jpg"
+    },
+    {
         "merged": "com.example.tes.app-debug-53:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.example.tes.app-main-55:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.tes.app-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.tes.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p3.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p3.jpg"
     },
     {
         "merged": "com.example.tes.app-debug-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.tes.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p3.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p3.jpg"
+    },
+    {
         "merged": "com.example.tes.app-debug-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.tes.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/xml_backup_rules.xml.flat",
+        "source": "com.example.tes.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p7.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p7.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p5.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p5.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p2.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p2.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p7.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p7.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p3.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p3.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_horror_p4.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/horror_p4.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p4.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p4.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tes.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p7.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p7.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_trending_p2.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/trending_p2.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p1.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p1.jpg"
+    },
+    {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p6.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p6.jpg"
     }
 ]

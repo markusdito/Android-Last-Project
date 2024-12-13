@@ -1,3 +1,4 @@
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -7,13 +8,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
 @Composable
-fun Detail(name: String, modifier: Modifier = Modifier, navController: NavController) {
+fun Detail(title: String, rating: String, poster: Int, desc: String, modifier: Modifier = Modifier, navController: NavController) {
     Surface(color = Color.White) {
 
         Column(modifier = modifier.padding(24.dp)) {
@@ -22,7 +24,7 @@ fun Detail(name: String, modifier: Modifier = Modifier, navController: NavContro
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "Avengers : $name",
+                    text = title,
                     color = Color.Black,
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold
@@ -38,21 +40,17 @@ fun Detail(name: String, modifier: Modifier = Modifier, navController: NavContro
                         modifier = Modifier.padding(end = 4.dp)
                     )
                     Text(
-                        text = "8.1",
+                        text = rating,
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.Gray
                     )
                 }
             }
-            Box(
-                modifier = Modifier
-                    .width(150.dp)
-                    .height(250.dp)
-                    .padding(top = 25.dp)
-                    .background(Color.Magenta)
-            ) {
-            }
+            Image(
+                painter = painterResource(poster),
+                contentDescription = "Movie Poster",
+            )
             Text(
                 text = "Description",
                 color = Color.Black,
@@ -61,7 +59,7 @@ fun Detail(name: String, modifier: Modifier = Modifier, navController: NavContro
                 modifier = Modifier.padding(top = 40.dp)
             )
             Text(
-                text = "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+                text = desc,
                 color = Color.Black,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Normal,

@@ -2,6 +2,9 @@ package com.example.tes
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -12,46 +15,49 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import kotlinx.*
 
 @Composable
-fun ShowPartition(section: String, title: String, rating: Double, modifier: Modifier, navController: NavController) {
+fun ShowPartition(section: String, index: Int, modifier: Modifier, navController: NavController) {
     //Heading Container
     Column(
         modifier = Modifier
     ) {
         header(section)
         Spacer(modifier = Modifier.height(20.dp))
-        contentContainer(navController = navController)
+        contentContainer(index, navController = navController)
     }
 }
 
 @Composable
-fun contentContainer(navController: NavController) {
+fun contentContainer(index: Int, navController: NavController) {
+    val film = film()
     // Body Container
     Row(
         modifier = Modifier
             .horizontalScroll(rememberScrollState())
     ) {
         // Image Container
-        for (j in 1..20) {
-            content(title = "X", rating = 5.6, modifier = Modifier, navController = navController)
+        for (i in 0 until film[0].size) {
+            content(id = arrayOf(index, i), title = film[index][i][0].toString(), rating = film[index][i][1] as Double, image = poster()[index][i],  modifier = Modifier, navController = navController)
         }
     }
 }
 
 @Composable
-fun content(title: String, rating: Double, modifier: Modifier = Modifier, navController: NavController) {
+fun content(id: Array<Int>, title: String, rating: Double, image: Int, modifier: Modifier = Modifier, navController: NavController) {
     Column(
         modifier = Modifier
             .padding(start = 16.dp)
     ) {
+        val number = "${id[0]}" + "${id[1]}"
         Image(
-            painter = painterResource(R.drawable.gambarmie),
+            painter = painterResource(image),
             contentDescription = "Test",
             modifier = Modifier
                 .width(150.dp)
                 .height(225.dp)
-                .clickable{navController.navigate("detail")},
+                .clickable{navController.navigate("detail/$number")},
         )
         Spacer(modifier = Modifier.height(8.dp))
         //Body Container
@@ -65,11 +71,11 @@ fun content(title: String, rating: Double, modifier: Modifier = Modifier, navCon
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center,
             ) {
-                Box(
-                    modifier = Modifier
-                        .width(16.dp)
-                        .height(16.dp)
-                        .border(1.dp, Color.Gray)
+                Icon(
+                    imageVector = Icons.Filled.Star,
+                    contentDescription = "Rating",
+                    tint = Color.Yellow,
+                    modifier = Modifier.padding(end = 4.dp)
                 )
                 Spacer(modifier = Modifier.width(4.dp))
                 Text(
@@ -79,8 +85,10 @@ fun content(title: String, rating: Double, modifier: Modifier = Modifier, navCon
             }
             Text(
                 text = title,
-                fontSize = 20.sp,
+                fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
+                modifier = Modifier
+                    .width(150.dp)
             )
         }
     }

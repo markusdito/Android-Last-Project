@@ -1,8 +1,9 @@
 package com.example.tes
 
+
 val movie = intArrayOf(R.drawable.ic_launcher_background, R.drawable.ic_launcher_foreground)
 
-fun film() {
+fun film(): Array<Array<Array<Any?>>> {
     val filmArray = Array(3) { Array(7) { arrayOfNulls<Any>(3) } }
 
     //Film Trending
@@ -32,16 +33,13 @@ fun film() {
     filmArray[2][5] = arrayOf("Miraculous World, London: At the Edge of Time", 8.5, "To save the future from a terrible fate, Marinette becomes Chronobug and teams up with Bunnyx to defeat a mysterious opponent who travels through time. Who is this new supervillain, and why are they obsessed with exposing Marinette's secret superhero identity? Marinette's only hope is to defeat her new opponent to prevent the end of Ladybug and time itself!")
     filmArray[2][6] = arrayOf("Red One", 6.8, "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.")
 
-    val kategori = listOf("Trending", "Horror", "Action")
+    return filmArray
+}
 
-    for ((index, jenis) in filmArray.withIndex()) {
-        for (filmArray in jenis) {
-            val title = filmArray[0]
-            val rating = filmArray[1]
-            val description = filmArray[2]
-            println("Judul      : $title")
-            println("Rating     : $rating")
-            println("Deskripsi  : $description")
-        }
-    }
+fun poster(): Array<Array<Int>> {
+    return arrayOf(
+        arrayOf(R.drawable.trending_p1, R.drawable.trending_p2, R.drawable.trending_p3, R.drawable.trending_p4, R.drawable.trending_p5, R.drawable.trending_p6, R.drawable.trending_p7),
+        arrayOf(R.drawable.horror_p1, R.drawable.horror_p2, R.drawable.horror_p3, R.drawable.horror_p4, R.drawable.horror_p5, R.drawable.horror_p6, R.drawable.horror_p7),
+        arrayOf(R.drawable.action_p1, R.drawable.action_p2, R.drawable.action_p3, R.drawable.action_p4, R.drawable.action_p5, R.drawable.action_p6, R.drawable.action_p7),
+    )
 }
