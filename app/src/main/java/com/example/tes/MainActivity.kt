@@ -17,13 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TesTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Column() {
-                        ShowPartition(
-                            section = "Trending", title = "Hello Panda", rating = 5.6, modifier = Modifier
-                        )
-                        Spacer(modifier = Modifier.size(16.dp))
-                        ShowPartition("Horor", title = "Insidious", rating = 8.1, modifier = Modifier)
-                    }
+                    MovieMain()
                 }
             }
         }
