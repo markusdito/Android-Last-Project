@@ -24,6 +24,7 @@ drawable horror_p6
 drawable horror_p7
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable pexels_cottonbro_4722571
 drawable trending_p1
 drawable trending_p2
 drawable trending_p3

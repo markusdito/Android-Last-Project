@@ -112,6 +112,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pexels_cottonbro_4722571
 drawable trending_p1
 drawable trending_p2
 drawable trending_p3

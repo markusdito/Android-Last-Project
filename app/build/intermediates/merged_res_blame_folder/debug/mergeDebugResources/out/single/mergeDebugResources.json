@@ -92,6 +92,10 @@
         "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p7.jpg"
     },
     {
+        "merged": "com.example.tes.app-debug-53:/drawable_pexels_cottonbro_4722571.jpg.flat",
+        "source": "com.example.tes.app-main-55:/drawable/pexels_cottonbro_4722571.jpg"
+    },
+    {
         "merged": "com.example.tes.app-debug-53:/drawable-nodpi_action_p5.jpg.flat",
         "source": "com.example.tes.app-main-55:/drawable-nodpi/action_p5.jpg"
     },

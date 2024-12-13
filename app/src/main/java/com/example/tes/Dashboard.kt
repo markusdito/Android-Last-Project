@@ -39,13 +39,27 @@ fun contentContainer(index: Int, navController: NavController) {
     ) {
         // Image Container
         for (i in 0 until film[0].size) {
-            content(id = arrayOf(index, i), title = film[index][i][0].toString(), rating = film[index][i][1] as Double, image = poster()[index][i],  modifier = Modifier, navController = navController)
+            content(
+                id = arrayOf(index, i),
+                title = film[index][i][0].toString(),
+                rating = film[index][i][1] as Double,
+                image = poster()[index][i],
+                modifier = Modifier,
+                navController = navController
+            )
         }
     }
 }
 
 @Composable
-fun content(id: Array<Int>, title: String, rating: Double, image: Int, modifier: Modifier = Modifier, navController: NavController) {
+fun content(
+    id: Array<Int>,
+    title: String,
+    rating: Double,
+    image: Int,
+    modifier: Modifier = Modifier,
+    navController: NavController
+) {
     Column(
         modifier = Modifier
             .padding(start = 16.dp)
