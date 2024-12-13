@@ -48,6 +48,9 @@ fun Detail(title: String, rating: String, poster: Int, desc: String, modifier: M
                 }
             }
             Image(
+                modifier = Modifier
+                    .width(180.dp)
+                    .height(280.dp),
                 painter = painterResource(poster),
                 contentDescription = "Movie Poster",
             )
