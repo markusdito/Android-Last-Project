@@ -5,11 +5,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
@@ -32,124 +29,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             TesTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Column() {
-                        Header(title = "Test", modifier = Modifier)
-                        ShowPartition(
-                            section = "Trending", title = "Hello Panda", rating = 5.6, modifier = Modifier
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
-
-@Composable
-fun ShowPartition(section: String, title: String, rating: Double, modifier: Modifier) {
-    //Heading Container
-    Column(
-        modifier = Modifier
-    ) {
-        //Show text as row
-        Row(
-            modifier = modifier
-                .fillMaxWidth()
-                .padding(start = 16.dp, end = 16.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Text(
-                text = section,
-                fontSize = 28.sp,
-                fontWeight = FontWeight.Bold,
-            )
-            Text(
-                text = "See all",
-                fontSize = 20.sp,
-                fontWeight = FontWeight.Bold,
-                color = Color(0xFF008CFF)
-            )
-        }
-        Spacer(modifier = Modifier.height(20.dp))
-
-        // Body Container
-        Row(
-            modifier = Modifier
-                .horizontalScroll(rememberScrollState())
-        ) {
-            // Image Container
-            for (j in 1..20) {
-                Column(
-                    modifier = Modifier
-                        .padding(start = 16.dp)
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .height(225.dp)
-                            .width(150.dp)
-                            .border(1.dp, Color.Gray, shape = RoundedCornerShape(20.dp))
+                    ShowPartition(
+                        section = "Trending", title = "Hello Panda", rating = 5.6, modifier = Modifier
                     )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    //Body Container
-                    Column(
-                        modifier = Modifier
-                            .padding(start = 16.dp)
-                    ) {
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth(),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.Center,
-                        ) {
-                            Box(
-                                modifier = Modifier
-                                    .width(16.dp)
-                                    .height(16.dp)
-                                    .border(1.dp, Color.Gray)
-                            )
-                            Spacer(modifier = Modifier.width(4.dp))
-                            Text(
-                                text = rating.toString(),
-                                fontSize = 16.sp,
-                            )
-                        }
-                        Text(
-                            text = title,
-                            fontSize = 20.sp,
-                            fontWeight = FontWeight.Bold,
-                        )
-                    }
-                }
-                if (j < 20) {
-                    Spacer(modifier = Modifier.size(8.dp))
+                    Spacer(modifier = Modifier.size(16.dp))
+                    ShowPartition("Horor", title = "Insidious", rating = 8.1, modifier = Modifier)
                 }
             }
         }
     }
 }
 
-@Composable
-fun Header(
-    title: String,
-    onMenuClick: () -> Unit = {},
-    modifier: Modifier = Modifier
-) {
-    Row(
-        modifier = modifier
-            .fillMaxWidth(),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-        // Icon Button (Menu or Back icon, for example)
-        IconButton(onClick = onMenuClick) {
-            Icon(
-                imageVector = Icons.Default.Menu, // Replace with your desired icon
-                contentDescription = "Menu",
-                tint = MaterialTheme.colorScheme.primary
-            )
-        }
-
-        // Optionally add more components to the right side (e.g., a search icon, profile picture)
-        Spacer(modifier = Modifier.width(48.dp)) // Spacer to keep space on the right side if needed
-    }
-}
