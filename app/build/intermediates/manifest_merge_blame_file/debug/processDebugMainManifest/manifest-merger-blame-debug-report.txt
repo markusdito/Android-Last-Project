@@ -8,274 +8,140 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="35" />
 10
-11    <!-- Required permission for App measurement to run. -->
-12    <uses-permission android:name="android.permission.INTERNET" />
-12-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:5-67
-12-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:23:22-64
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:5-79
-13-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:24:22-76
-14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:5-68
-14-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:25:22-65
-15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
-16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-16-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
-16-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
-17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-17-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
-17-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
-18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-18-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
-18-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
-19
-20    <permission
-20-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
-21        android:name="com.example.tes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-21-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
-22        android:protectionLevel="signature" />
-22-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
-23
-24    <uses-permission android:name="com.example.tes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-24-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-24-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
-25
-26    <application
-26-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:5:5-26:19
-27        android:allowBackup="true"
-27-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:6:13-39
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\89a7862840068a127fd98b50350f239c\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
-29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:7:13-69
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:fullBackupContent="@xml/backup_rules"
-32-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:8:13-58
-33        android:icon="@mipmap/ic_launcher"
-33-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:9:13-47
-34        android:label="@string/app_name"
-34-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:10:13-45
-35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:11:13-58
-36        android:supportsRtl="true"
-36-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:12:13-39
-37        android:testOnly="true"
-38        android:theme="@style/Theme.Tes" >
-38-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:13:13-45
-39        <activity
-39-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:15:9-25:20
-40            android:name="com.example.tes.MainActivity"
-40-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:16:17-45
-41            android:exported="true"
-41-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:17:17-40
-42            android:label="@string/app_name"
-42-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:18:17-49
-43            android:theme="@style/Theme.Tes" >
-43-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:19:17-49
-44            <intent-filter>
-44-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:20:13-24:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:21:17-68
-45-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:21:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:23:17-76
-47-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:23:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\fd1ac167810c78e22558b1a030688150\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-51            android:name="androidx.compose.ui.tooling.PreviewActivity"
-51-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\fd1ac167810c78e22558b1a030688150\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-52            android:exported="true" />
-52-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\fd1ac167810c78e22558b1a030688150\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-53        <activity
-53-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\dffb7eb15230cb6c0ee4e17af29bfcbb\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
-54            android:name="androidx.activity.ComponentActivity"
-54-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\dffb7eb15230cb6c0ee4e17af29bfcbb\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
-55            android:exported="true" />
-55-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\marku\.gradle\caches\8.11\transforms\dffb7eb15230cb6c0ee4e17af29bfcbb\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
-56
-57        <receiver
-57-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
-58            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-58-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
-59            android:enabled="true"
-59-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
-60            android:exported="false" >
-60-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
-61        </receiver>
-62
-63        <service
-63-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
-64            android:name="com.google.android.gms.measurement.AppMeasurementService"
-64-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
-65            android:enabled="true"
-65-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
-66            android:exported="false" />
-66-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
-67        <service
-67-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
-68            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-68-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
-69            android:enabled="true"
-69-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
-70            android:exported="false"
-70-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
-71            android:permission="android.permission.BIND_JOB_SERVICE" />
-71-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\1ee13b15b8ddcbf3c6fe0d0cdd2df98c\transformed\play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
-72
-73        <property
-73-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
-74            android:name="android.adservices.AD_SERVICES_CONFIG"
-74-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
-75            android:resource="@xml/ga_ad_services_config" />
-75-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
-76
-77        <service
-77-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
-78            android:name="com.google.firebase.components.ComponentDiscoveryService"
-78-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:35:13-84
-79            android:directBootAware="true"
-79-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-80            android:exported="false" >
-80-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:36:13-37
-81            <meta-data
-81-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
-82                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-82-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\marku\.gradle\caches\8.11\transforms\fb16d2dbf9b756a654dcfa41d5e628d2\transformed\play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
-84            <meta-data
-84-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-85                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-85-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-87            <meta-data
-87-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-88                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-88-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\b59ac09c852df89ee2c13301441bc43f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-90            <meta-data
-90-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\1d364564a7b085e2a1b8144b55c1e62f\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-91                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-91-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\1d364564a7b085e2a1b8144b55c1e62f\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\1d364564a7b085e2a1b8144b55c1e62f\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-93            <meta-data
-93-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-94                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-94-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-96        </service>
-97
-98        <provider
-98-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-99            android:name="com.google.firebase.provider.FirebaseInitProvider"
-99-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-100            android:authorities="com.example.tes.firebaseinitprovider"
-100-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-101            android:directBootAware="true"
-101-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-102            android:exported="false"
-102-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-103            android:initOrder="100" />
-103-->[com.google.firebase:firebase-common:21.0.0] C:\Users\marku\.gradle\caches\8.11\transforms\ec9cb3b87b9b7d39da812be38fbe2f1e\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-104
-105        <activity
-105-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\marku\.gradle\caches\8.11\transforms\eec001c6b28ab8d9c44da86ac36943d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-106-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\marku\.gradle\caches\8.11\transforms\eec001c6b28ab8d9c44da86ac36943d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-107            android:exported="false"
-107-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\marku\.gradle\caches\8.11\transforms\eec001c6b28ab8d9c44da86ac36943d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-108-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\marku\.gradle\caches\8.11\transforms\eec001c6b28ab8d9c44da86ac36943d1\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-109
-110        <provider
-110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-111            android:name="androidx.startup.InitializationProvider"
-111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-112            android:authorities="com.example.tes.androidx-startup"
-112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-113            android:exported="false" >
-113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-114            <meta-data
-114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-116                android:value="androidx.startup" />
-116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\8e7b63f565bea0d5f2aece625388ceee\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-117            <meta-data
-117-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\30b0570b8553512086bc4c17b66b3148\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
-118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-118-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\30b0570b8553512086bc4c17b66b3148\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
-119                android:value="androidx.startup" />
-119-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\30b0570b8553512086bc4c17b66b3148\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
-120            <meta-data
-120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-122                android:value="androidx.startup" />
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-123        </provider>
-124
-125        <uses-library
-125-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\marku\.gradle\caches\8.11\transforms\228c96282d116d68030bf1df5667443b\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-126            android:name="android.ext.adservices"
-126-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\marku\.gradle\caches\8.11\transforms\228c96282d116d68030bf1df5667443b\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-127            android:required="false" />
-127-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\marku\.gradle\caches\8.11\transforms\228c96282d116d68030bf1df5667443b\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-128
-129        <meta-data
-129-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\marku\.gradle\caches\8.11\transforms\c5c971101732d5a5a78701ddf5380c9b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-130            android:name="com.google.android.gms.version"
-130-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\marku\.gradle\caches\8.11\transforms\c5c971101732d5a5a78701ddf5380c9b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-131            android:value="@integer/google_play_services_version" />
-131-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\marku\.gradle\caches\8.11\transforms\c5c971101732d5a5a78701ddf5380c9b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-132
-133        <receiver
-133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-134            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-135            android:directBootAware="false"
-135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-136            android:enabled="true"
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-137            android:exported="true"
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-138            android:permission="android.permission.DUMP" >
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-139            <intent-filter>
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-140                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-141            </intent-filter>
-142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-143                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-144            </intent-filter>
-145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-146                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-147            </intent-filter>
-148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-149                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\77cd5ab846ab440857d44af01f6efd6d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-150            </intent-filter>
-151        </receiver>
-152    </application>
-153
-154</manifest>
+11    <permission
+11-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.tes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.tes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:5:5-26:19
+18        android:allowBackup="true"
+18-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:6:13-39
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.15.0] C:\Users\marku\.gradle\caches\8.11\transforms\c9a65936778e00b9777646f423c276f6\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:7:13-69
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:8:13-58
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:9:13-47
+25        android:label="@string/app_name"
+25-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:10:13-45
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:11:13-58
+27        android:supportsRtl="true"
+27-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:12:13-39
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Tes" >
+29-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:13:13-45
+30        <activity
+30-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:15:9-25:20
+31            android:name="com.example.tes.MainActivity"
+31-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:16:17-45
+32            android:exported="true"
+32-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:17:17-40
+33            android:label="@string/app_name"
+33-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:18:17-49
+34            android:theme="@style/Theme.Tes" >
+34-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:19:17-49
+35            <intent-filter>
+35-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:21:17-68
+36-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:23:17-76
+38-->E:\Android-Last-Project\app\src\main\AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\5ce2df880cb7bc85b955a76ca117f672\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+42            android:name="androidx.compose.ui.tooling.PreviewActivity"
+42-->[androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\5ce2df880cb7bc85b955a76ca117f672\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-tooling-android:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\5ce2df880cb7bc85b955a76ca117f672\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.example.tes.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\marku\.gradle\caches\8.11\transforms\ddd3fd229aaf5057e5fca7a2692af2e6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\bf945f3a8c31844956a108cbc2889973\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\bf945f3a8c31844956a108cbc2889973\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\marku\.gradle\caches\8.11\transforms\bf945f3a8c31844956a108cbc2889973\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+58        </provider>
+59
+60        <activity
+60-->[androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\91fe1c64b5cc3c412be36ee23a0f6b86\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:23:9-25:39
+61            android:name="androidx.activity.ComponentActivity"
+61-->[androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\91fe1c64b5cc3c412be36ee23a0f6b86\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:24:13-63
+62            android:exported="true" />
+62-->[androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\marku\.gradle\caches\8.11\transforms\91fe1c64b5cc3c412be36ee23a0f6b86\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:25:13-36
+63
+64        <receiver
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+65            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+66            android:directBootAware="false"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+67            android:enabled="true"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+68            android:exported="true"
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+69            android:permission="android.permission.DUMP" >
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+70            <intent-filter>
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+71                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+72            </intent-filter>
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+74                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+75            </intent-filter>
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+77                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+80                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\marku\.gradle\caches\8.11\transforms\46f7d7013892f00420b3227e98e2c3e8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+81            </intent-filter>
+82        </receiver>
+83    </application>
+84
+85</manifest>

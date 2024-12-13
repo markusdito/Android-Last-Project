@@ -4,7 +4,7 @@
             "outputFile": "com.example.tes.app-mergeDebugResources-51:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\marku\\.gradle\\caches\\8.11\\transforms\\89a7862840068a127fd98b50350f239c\\transformed\\core-1.15.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\marku\\.gradle\\caches\\8.11\\transforms\\c9a65936778e00b9777646f423c276f6\\transformed\\core-1.15.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

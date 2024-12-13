@@ -48,6 +48,10 @@
         "source": "com.example.tes.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.tes.app-debug-53:/drawable-nodpi_gambarmie.png.flat",
+        "source": "com.example.tes.app-main-55:/drawable-nodpi/gambarmie.png"
+    },
+    {
         "merged": "com.example.tes.app-debug-53:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.example.tes.app-main-55:/drawable/ic_launcher_foreground.xml"
     },
